@@ -1,0 +1,42 @@
+    *{
+    margin:0;
+    padding:0;
+}
+body {
+    background-color:#f6f6f6;
+}
+.titulo-principal,.subtitulo {
+   text-align: center;
+   margin-bottom:16px;
+}
+.imagem-cabecalho{
+    width:30%;
+}
+.cabecalho {
+    text-align: center;
+    
+}
+.personagem {
+    display:none;
+    margin:5vh 10vw;
+    justify-content:center;
+    border:2px solid black;
+}
+.personagem-ativo{
+    display:flex;
+}
+.personagem-texto {
+    box-sizing: border-box;
+    width: 50%;
+    border-left:5px solid red;
+    padding:8px 16px;
+    background-color:rgba(255, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    font-size:24px;
+    font-weight:500;
+}
+.personagem-imagem {
+    width:40%;
+}
+
